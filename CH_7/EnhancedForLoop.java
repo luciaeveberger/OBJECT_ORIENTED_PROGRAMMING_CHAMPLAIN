@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This program demonstrates the enhanced for loop with an array.
  */

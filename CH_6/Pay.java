@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+
 /**
  * This class uses overloaded methods to return an employee's 
  * weekly salary.

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This class's sequentialSearch method searches an
  * int array for a specified value.

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_5;
+
 /**
  * This program demonstrates the while loop.
  */

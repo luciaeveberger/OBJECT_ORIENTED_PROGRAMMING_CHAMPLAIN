@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_4;
+
 import java.util.Scanner;
 public class CheckPoint
 {

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_5;
+
 import java.util.Scanner;  // Needed for Scanner
 import java.io.*;          // Needed for File and IOException
 

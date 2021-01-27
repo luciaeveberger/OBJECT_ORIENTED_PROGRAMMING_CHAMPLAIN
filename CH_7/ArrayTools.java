@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This class has methods for performing the selection sort 
  * and the binary search on integer arrays.

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_5;
+
 /**
  *  This program displays a table of speeds in
  *  kph converted to mph.

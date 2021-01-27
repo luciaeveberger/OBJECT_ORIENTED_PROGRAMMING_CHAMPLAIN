@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_4;
+
 import java.util.Scanner;  // Needed for the Scanner class
 
 /**
@@ -38,6 +40,6 @@ public class AverageScore
       // If the average is higher than 95, congratulate
       // the user.
       if (average > 95)
-         System.out.println("That’s a great score!");
+         System.out.println("Thatï¿½s a great score!");
    }
 } 

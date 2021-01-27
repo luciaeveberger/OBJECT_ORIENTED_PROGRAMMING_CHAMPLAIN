@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+
 /**
  * This class stores a person's first, last, and middle names.   
  * The class is dangerous because it does not prevent operations 

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This program uses the length fields of a 2D array 
  * to display the number of rows and the number of   

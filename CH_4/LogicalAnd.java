@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_4;
+
 import java.util.Scanner;  // Needed for the Scanner class
 
 /**
@@ -19,7 +21,7 @@ public class LogicalAnd
       salary = keyboard.nextDouble();
 
       // Get the number of years at the current job. +
-      System.out.print("Enter the number of years "
+      System.out.print("Enter the number of years " +
 		                 "at your current job: ");
       yearsOnJob = keyboard.nextDouble();
 

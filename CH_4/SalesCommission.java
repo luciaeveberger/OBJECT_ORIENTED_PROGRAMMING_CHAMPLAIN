@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_4;
+
 /**
  * This class calculates a salesperson's gross
  * pay based on the amount of sales.

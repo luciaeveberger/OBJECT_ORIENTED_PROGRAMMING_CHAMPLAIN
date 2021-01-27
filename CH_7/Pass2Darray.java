@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This class demonstrates methods that accept a 
  * two-dimensional array as an argument.

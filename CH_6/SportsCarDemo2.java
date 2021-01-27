@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+
 /**
  * This program shows that you can switch on an
  * enumerated type.

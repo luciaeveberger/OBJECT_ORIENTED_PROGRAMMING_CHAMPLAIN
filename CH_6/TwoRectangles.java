@@ -1,3 +1,7 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+
+import OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7.Rectangle;
+
 /**
  * This program demonstrates both of the Rectangle
  * class's constructors.
@@ -10,12 +14,12 @@ public class TwoRectangles
       // Declare two Rectangle variables, but don't
       // create instances of the class yet.
 
-      Rectangle box1, box2;
+      OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7.Rectangle box1, box2;
 
       // Create a Rectangle object and use the
       // first constructor.
 
-      box1 = new Rectangle();
+      box1 = new OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7.Rectangle();
       System.out.println("The box1 object's length " +
                          "and width are " +
                          box1.getLength() + " and " +

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+
 /**
  * This program passes an object as an argument.   
  * The object is modified by the receiving method.

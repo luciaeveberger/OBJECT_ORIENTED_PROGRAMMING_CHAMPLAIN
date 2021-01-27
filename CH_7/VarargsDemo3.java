@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This program demonstrates a method that accepts   
  * a mixture of fixed arguments and a variable-      

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_4;
+
 /**
  * The TestGrade2 class determines a letter grade
  * based on a numeric test score.

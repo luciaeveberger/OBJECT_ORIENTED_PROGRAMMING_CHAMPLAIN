@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This class keeps the sales figures for a number of    
  * days in an array and provides methods for getting     

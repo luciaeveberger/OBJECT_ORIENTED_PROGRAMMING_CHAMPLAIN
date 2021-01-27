@@ -1,3 +1,7 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_5;
+
+import java.util.Scanner;
+
 /**
  * This program demonstrates a user controlled loop.
  */
@@ -15,8 +19,10 @@ public class TestAverages
           System.out.print("per student. How many students do "
                            + "you have? ");
 
+
+          Scanner Keyboard = new Scanner(System.in);
           // Get the number of students.
-          numStudents = Keyboard.readInt();
+          numStudents = Keyboard.nextInt();
 
           // Start count at 1.
           count = 1;
@@ -28,11 +34,11 @@ public class TestAverages
                // Get the three test scores for a student.
                System.out.println("Student #" + count);
                System.out.print("Enter score #1: ");
-               score1 = Keyboard.readInt();
+               score1 = Keyboard.nextInt();
                System.out.print("Enter score #2: ");
-               score2 = Keyboard.readInt();
+               score2 = Keyboard.nextInt();
                System.out.print("Enter score #3: ");
-               score3 = Keyboard.readInt();
+               score3 = Keyboard.nextInt();
 
                // Calculate and print the average test score.
                average = (score1 + score2 + score3) / 3.0;

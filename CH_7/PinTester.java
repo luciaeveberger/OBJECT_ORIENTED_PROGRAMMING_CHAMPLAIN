@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * The PinTester class is used to compare the PIN that
  * was entered by a user to the valid PIN.

@@ -1,4 +1,6 @@
- import java.util.ArrayList; // Needed for ArrayList class
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
+import java.util.ArrayList; // Needed for ArrayList class
  
  /**
   *  This program demonstrates how the enhanced for loop

@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_5;
+
 /**
  * The SpeedConverter class converts speeds
  * in KPH (kilometers per hour) to MPH (miles

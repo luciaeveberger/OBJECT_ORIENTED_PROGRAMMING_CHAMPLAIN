@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+
 /**
  * This program creates a FullName object, and then calls the  
  * object's getLength method before values are established for 

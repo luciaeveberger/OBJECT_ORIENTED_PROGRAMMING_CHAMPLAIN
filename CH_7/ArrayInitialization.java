@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
+
 /**
  * This program shows an array being initialized.
  */
@@ -18,5 +20,10 @@ public class ArrayInitialization
          System.out.println("Month " + (index + 1) +
                             " has " + days[index] + " days.");
       }
+      // this is different than a read only loop
+      for (int day: days){
+         System.out.println("reading the day " + day);
+      }
+
    }
 }

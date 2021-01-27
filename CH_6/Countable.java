@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+
 /**
  * This class demonstrates a static field.
  */
@@ -15,6 +17,9 @@ public class Countable
 
    public Countable()
    {
+
+      // all we 're doing is is incrementing this count !!
+      // what does ++ mean? => instanceCount = instanceCount +1;
       instanceCount++;
    }
 

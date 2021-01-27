@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_4;
+
 /**
  * This class holds values for hours worked and the
  * hourly pay rate. It calculates the gross pay and
