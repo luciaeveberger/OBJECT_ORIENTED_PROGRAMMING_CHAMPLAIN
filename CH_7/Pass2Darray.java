@@ -16,9 +16,13 @@ public class Pass2Darray
 
       System.out.println("Here are the values in " +
                          "the array.");
-                         
+
+
+      int [] oneDARray = {1,2,3};
       // Pass the numbers array to the showArray method.
       // This will display the array's contents.
+
+//      showArray(oneDARray);
       showArray(numbers);
 
       // Display the sum of the array's values.
@@ -33,7 +37,7 @@ public class Pass2Darray
     * int array and displays its contents. 
     */
 
-   private static void showArray(int[][] array)
+   private static int [][] showArray(int[][] array)
    {
       for (int row = 0; row < array.length; row++)
       {
@@ -41,6 +45,8 @@ public class Pass2Darray
             System.out.print(array[row][col] + " ");
          System.out.println();
       }
+
+      return array;
    }
 
    /**

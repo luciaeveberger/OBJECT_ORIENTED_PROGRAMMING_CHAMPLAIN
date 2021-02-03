@@ -11,13 +11,13 @@ public class CorpSales
 {
    public static void main(String[] args)
    {
-      final int DIVS = 3; // Three divisions in the company
-      final int QTRS = 4; // Four quarters
+      final int DIVS = 2; // Three divisions in the company
+      final int QTRS = 2; // Four quarters
       double totalSales = 0.0;  // Accumulator
       
       // Create an array to hold the sales for each
       // division, for each quarter.
-      double[][] sales = new double[DIVS][QTRS];
+      double[][] sales = new double[DIVS][QTRS]; // what is the size of this array => 4
       
       // Create a Scanner object for keyboard input.
       Scanner keyboard = new Scanner(System.in);
@@ -29,6 +29,9 @@ public class CorpSales
                          + "Enter the following sales data:");
       System.out.println();
 
+
+      // [10, 20]
+      // [30, 40] => how a sum can be calculated from this example!!
       // Nested loops to fill the array with quarterly
       // sales figures for each division.
       for (int div = 0; div < DIVS; div++)

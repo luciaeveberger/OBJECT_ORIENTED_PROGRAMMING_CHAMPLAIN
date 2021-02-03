@@ -6,6 +6,8 @@ package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_7;
 
 public class InventoryItem
 {
+    // what data does an inventory item contain?
+    // attributes of our class
    private String description;  // Item description
    private int units;           // Units on-hand
 
@@ -15,6 +17,7 @@ public class InventoryItem
 
    public InventoryItem()
    {
+       // default our object
       description = "";
       units = 0;
    }

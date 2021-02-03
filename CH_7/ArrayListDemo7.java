@@ -11,7 +11,7 @@ public class ArrayListDemo7
 {
    public static void main(String[] args)
    {
-      // Create a listor to hold some names.
+      // Create a listor to hold some names. => not going to specify a datatype
       ArrayList list = new ArrayList();
       
       // Add a variety of objects to the ArrayList.
@@ -25,5 +25,9 @@ public class ArrayListDemo7
       InventoryItem item = (InventoryItem)list.get(0);
       String str = (String)list.get(1);
       Rectangle rect = (Rectangle)list.get(2);
+
+      System.out.println(list.get(0));
+
+
    }
 }
