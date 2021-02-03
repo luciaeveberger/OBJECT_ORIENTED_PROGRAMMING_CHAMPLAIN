@@ -1,0 +1,14 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_9;
+public class Ground
+{
+     public Ground()
+     {
+          System.out.println("You are on the ground.");
+     }
+
+     public Ground(String groundColor)
+     {
+          System.out.println("The ground is "
+                             + groundColor);
+     }
+}
