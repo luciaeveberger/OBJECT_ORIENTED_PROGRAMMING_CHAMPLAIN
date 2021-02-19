@@ -8,6 +8,7 @@ public class RetailItem
 {
    private String description;  // Item description
    private int itemNumber;      // Item number
+   private String shippingData = "10/20/2021";
    private CostData cost;       // Cost data
 
    /**
@@ -19,6 +20,7 @@ public class RetailItem
    {
       description = desc;
       itemNumber = itemNum;
+      // be created by our inner class =>
       cost = new CostData(wholesale, retail);
    }
 
@@ -34,9 +36,10 @@ public class RetailItem
       str = String.format("Description: %s\n" +
                           "Item Number: %d\n" +
                           "Wholesale Cost: $%,.2f\n" +
-                          "Retail Price: $%,.2f\n",
+                          "Retail Price: $%,.2f\n" +
+                      "Shipping Data: %s\n",
                           description, itemNumber,
-                          cost.wholesale, cost.retail);
+                          cost.wholesale, cost.retail, cost.getData());
       
       // Return the string.
       return str;
@@ -59,6 +62,9 @@ public class RetailItem
       {
          wholesale = w;
          retail = r;
+      }
+      public String getData(){
+         return shippingData;
       }
    }
 }
