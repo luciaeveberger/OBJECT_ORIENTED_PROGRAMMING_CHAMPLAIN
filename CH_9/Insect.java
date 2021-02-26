@@ -1,7 +1,7 @@
-package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_9;
+package CH_9;
 
 public class Insect {
-//what is an action that an insect would do?
+    //what is an action that an insect would do?
     public String name;
 
 //    public Insect(String n){
@@ -9,14 +9,15 @@ public class Insect {
 //    }
 
 
-    public void fly(){
-
-    }
-    public void eat(){
+    public void fly() {
 
     }
 
-    public void drink(){
+    public void eat() {
+
+    }
+
+    public void drink() {
 
     }
 

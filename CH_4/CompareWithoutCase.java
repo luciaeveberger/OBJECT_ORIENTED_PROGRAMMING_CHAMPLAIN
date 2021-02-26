@@ -1,4 +1,4 @@
-package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_4;
+package CH_4;
 
 import java.util.Scanner;  // Needed for the Scanner class
 

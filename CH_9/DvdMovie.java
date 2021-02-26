@@ -1,49 +1,46 @@
+package CH_9;
+
 /**
- *  DvdMovie class 
+ * DvdMovie class
  */
 
-public class DvdMovie implements RetailItem
-{
-   private String title;       // The DVD's title
-   private int runningTime;    // Running time in minutes
-   private double retailPrice; // The DVD's retail price
-   
-   /**
-    *  Constructor
-    */
+public class DvdMovie implements RetailItem {
+    private String title;       // The DVD's title
+    private int runningTime;    // Running time in minutes
+    private double retailPrice; // The DVD's retail price
 
-   public DvdMovie(String dvdTitle, int runTime, double dvdPrice)
-   {
-      title = dvdTitle;
-      runningTime = runTime;
-      retailPrice = dvdPrice;
-   }
-   
-   /**
-    *  getTitle method
-    */
+    /**
+     * Constructor
+     */
 
-   public String getTitle()
-   {
-      return title;
-   }
-   
-   /**
-    *  getRunningTime method  
-    */
+    public DvdMovie(String dvdTitle, int runTime, double dvdPrice) {
+        title = dvdTitle;
+        runningTime = runTime;
+        retailPrice = dvdPrice;
+    }
 
-   public int getRunningTime()
-   {
-      return runningTime;
-   }
+    /**
+     * getTitle method
+     */
 
-   /**
-    *  getRetailPrice method (Required by the RetailItem  
-    *  interface)
-    */
+    public String getTitle() {
+        return title;
+    }
 
-   public double getRetailPrice()
-   {
-      return retailPrice;
-   }
+    /**
+     * getRunningTime method
+     */
+
+    public int getRunningTime() {
+        return runningTime;
+    }
+
+    /**
+     * getRetailPrice method (Required by the RetailItem
+     * interface)
+     */
+
+    public double getRetailPrice() {
+        return retailPrice;
+    }
 }

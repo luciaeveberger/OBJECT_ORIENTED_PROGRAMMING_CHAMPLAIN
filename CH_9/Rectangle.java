@@ -1,82 +1,76 @@
+package CH_9;
+
 /**
  * The Rectangle class stores and manipulates
  * data for a rectangle.
  */
 
-public class Rectangle
-{
-     private double length;
-     private double width;
+public class Rectangle {
+    private double length;
+    private double width;
 
-	/**
-	 *   Constructor
-	 */
+    /**
+     * Constructor
+     */
 
-     public Rectangle(double len, double w)
-     {
-          length = len;
-          width = w;
-     }
+    public Rectangle(double len, double w) {
+        length = len;
+        width = w;
+    }
 
-	/**
-	 * The setLength method accepts an argument
-    * which is stored in the length field. 
-	 */
+    /**
+     * The setLength method accepts an argument
+     * which is stored in the length field.
+     */
 
-     public void setLength(double len)
-     {
-          length = len;
-     }
+    public void setLength(double len) {
+        length = len;
+    }
 
-	/**
-	 * The setWidth method accepts an argument  
-    * which is stored in the width field.
-	 */
+    /**
+     * The setWidth method accepts an argument
+     * which is stored in the width field.
+     */
 
-     public void setWidth(double w)
-     {
-          width = w;
-     }
+    public void setWidth(double w) {
+        width = w;
+    }
 
-	/**
-	 * The set method accepts two arguments     
-    * which are stored in the length and width 
-    * fields.
-	 */
+    /**
+     * The set method accepts two arguments
+     * which are stored in the length and width
+     * fields.
+     */
 
-     public void set(double len, double w)
-     {
-          length = len;
-          width = w;
-     }
+    public void set(double len, double w) {
+        length = len;
+        width = w;
+    }
 
-	/**
-	 * The getLength method returns the value   
-    * stored in the length field.
-	 */
+    /**
+     * The getLength method returns the value
+     * stored in the length field.
+     */
 
-     public double getLength()
-     {
-          return length;
-     }
+    public double getLength() {
+        return length;
+    }
 
-	/**
-	 * The getWidth method returns the value    
-    * stored in the width field.
-	 */
+    /**
+     * The getWidth method returns the value
+     * stored in the width field.
+     */
 
-     public double getWidth()
-     {
-          return width;
-     }
+    public double getWidth() {
+        return width;
+    }
 
-	/**
-	 * The getArea method returns the value of the 
-    * length field times the width field.
-	 */
+    /**
+     * The getArea method returns the value of the
+     * length field times the width field.
+     */
 
-     public double getArea()
-     {
-          return length * width;
-     }
+    public double getArea() {
+        return length * width;
+    }
 }

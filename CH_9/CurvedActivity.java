@@ -1,53 +1,50 @@
+package CH_9;
+
 /**
- *  This class computes a curved grade. It extends
- *  the GradedActivity class.
+ * This class computes a curved grade. It extends
+ * the GradedActivity class.
  */
 
-public class CurvedActivity extends GradedActivity
-{
-   double rawScore;     // Unadjusted score
-   double percentage;   // Curve percentage
+public class CurvedActivity extends GradedActivity {
+    double rawScore;     // Unadjusted score
+    double percentage;   // Curve percentage
 
-   /**
-    *  The constructor sets the curve percentage.
-    */
+    /**
+     * The constructor sets the curve percentage.
+     */
 
-   public CurvedActivity(double percent)
-   {
-      percentage = percent;
-      rawScore = 0.0;
-   }
+    public CurvedActivity(double percent) {
+        percentage = percent;
+        rawScore = 0.0;
+    }
 
-   /**
-    *  The setScore method overrides the superclass setScore method. 
-    *  This version accepts the unadjusted score as an argument. That
-    *  score is multiplied by the curve percentage and the result is
-    *  sent as an argument to the superclass's setScore method.
-    */
-   
-   @Override
-   public void setScore(double s)
-   {
-      rawScore = s;
-      super.setScore(rawScore * percentage);
-   }
+    /**
+     * The setScore method overrides the superclass setScore method.
+     * This version accepts the unadjusted score as an argument. That
+     * score is multiplied by the curve percentage and the result is
+     * sent as an argument to the superclass's setScore method.
+     */
 
-   /**
-    *  The getRawScore method returns the raw score.
-    */
+    @Override
+    public void setScore(double s) {
+        rawScore = s;
+        super.setScore(rawScore * percentage);
+    }
 
-   public double getRawScore()
-   {
-      return rawScore;
-   }
+    /**
+     * The getRawScore method returns the raw score.
+     */
 
-   /**
-    *  The getPercentage method returns the curve
-    *  percentage.
-    */
+    public double getRawScore() {
+        return rawScore;
+    }
 
-   public double getPercentage()
-   {
-      return percentage;
-   }
+    /**
+     * The getPercentage method returns the curve
+     * percentage.
+     */
+
+    public double getPercentage() {
+        return percentage;
+    }
 }

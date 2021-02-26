@@ -1,3 +1,5 @@
+package CH_9;
+
 import java.util.Scanner;
 
 /**
@@ -5,39 +7,37 @@ import java.util.Scanner;
  * which inherits from the GradedActivity class.
  */
 
-public class CurvedActivityDemo
-{
-   public static void main(String[] args)
-   {
-      double score,        // Raw score
-           curvePercent;   // Curve percentage
-           
-      // Create a Scanner object for keybaord input.
-      Scanner keyboard = new Scanner(System.in);
+public class CurvedActivityDemo {
+    public static void main(String[] args) {
+        double score,        // Raw score
+                curvePercent;   // Curve percentage
 
-      // Get the unadjusted exam score.
-      System.out.print("Enter the student's raw " +
-                       "numeric score: ");
-      score = keyboard.nextDouble();
+        // Create a Scanner object for keybaord input.
+        Scanner keyboard = new Scanner(System.in);
 
-      // Get the curve percentage.
-      System.out.print("Enter the curve percentage: ");
-      curvePercent = keyboard.nextDouble();
+        // Get the unadjusted exam score.
+        System.out.print("Enter the student's raw " +
+                "numeric score: ");
+        score = keyboard.nextDouble();
 
-      // Create a CurvedActivity object.
-      CurvedActivity curvedExam =
-                   new CurvedActivity(curvePercent);
+        // Get the curve percentage.
+        System.out.print("Enter the curve percentage: ");
+        curvePercent = keyboard.nextDouble();
 
-      // Set the exam score.
-      curvedExam.setScore(score);
+        // Create a CurvedActivity object.
+        CurvedActivity curvedExam =
+                new CurvedActivity(curvePercent);
 
-      // Display the test results.
-      System.out.println("The raw score is " +
-                         curvedExam.getRawScore() +
-                         " points.");
-      System.out.println("The curved score is " +
-                         curvedExam.getScore());
-      System.out.println("The exam grade is " +
-                         curvedExam.getGrade());
-   }
+        // Set the exam score.
+        curvedExam.setScore(score);
+
+        // Display the test results.
+        System.out.println("The raw score is " +
+                curvedExam.getRawScore() +
+                " points.");
+        System.out.println("The curved score is " +
+                curvedExam.getScore());
+        System.out.println("The exam grade is " +
+                curvedExam.getGrade());
+    }
 }

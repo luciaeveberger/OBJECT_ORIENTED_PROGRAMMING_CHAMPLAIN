@@ -1,13 +1,12 @@
-public class Sky extends Ground
-{
-     public Sky()
-     {
-          System.out.println("You are in the sky.");
-     }
+package CH_9;
 
-     public Sky(String skyColor)
-     {
-          super("green");
-          System.out.println("The sky is " + skyColor);
-     }
+public class Sky extends Ground {
+    public Sky() {
+        System.out.println("You are in the sky.");
+    }
+
+    public Sky(String skyColor) {
+        super("green");
+        System.out.println("The sky is " + skyColor);
+    }
 }

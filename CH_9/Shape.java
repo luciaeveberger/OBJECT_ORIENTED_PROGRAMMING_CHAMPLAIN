@@ -1,15 +1,14 @@
-public class Shape
-{
-     private double area;
+package CH_9;
 
-     public void setArea(double a)
-     {
-          area = a;
-     }
+public class Shape {
+    private double area;
 
-     public double getArea()
-     {
-          return area;
-     }
+    public void setArea(double a) {
+        area = a;
+    }
+
+    public double getArea() {
+        return area;
+    }
 };
 

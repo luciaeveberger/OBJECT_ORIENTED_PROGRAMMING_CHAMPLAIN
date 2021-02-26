@@ -1,10 +1,11 @@
+package CH_9;
+
 /**
  * RetailItem interface
  */
 
-public interface RetailItem
-{
-   // this is a contract
-   public double getRetailPrice();
-   // all of the methods that you need =>
+public interface RetailItem {
+    // this is a contract
+    public double getRetailPrice();
+    // all of the methods that you need =>
 }

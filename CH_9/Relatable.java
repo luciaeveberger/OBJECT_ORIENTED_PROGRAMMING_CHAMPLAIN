@@ -1,10 +1,13 @@
-/**
-* Relatable interface
-*/
+package CH_9;
 
-public interface Relatable
-{
-   boolean equals(GradedActivity g);
-   boolean isGreater(GradedActivity g);
-   boolean isLess(GradedActivity g);
+/**
+ * Relatable interface
+ */
+
+public interface Relatable {
+    boolean equals(GradedActivity g);
+
+    boolean isGreater(GradedActivity g);
+
+    boolean isLess(GradedActivity g);
 }

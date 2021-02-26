@@ -1,53 +1,50 @@
+package CH_9;
+
 /**
- *  This class holds data about a cube.
+ * This class holds data about a cube.
  */
 
-public class Cube extends Rectangle
-{
-   private double height;  // The height of the cube
+public class Cube extends Rectangle {
+    private double height;  // The height of the cube
 
-   /**
-    *  The constructor accepts the cube's length,  
-    *  width, and height as arguments.   
-    */
+    /**
+     * The constructor accepts the cube's length,
+     * width, and height as arguments.
+     */
 
-   public Cube(double len, double w, double h)
-   {
-      // Call the superclass constructor to
-      // initialize length and width.
-      super(len, w);
-      
-      // Initialize height.
-      height = h;
-   }
+    public Cube(double len, double w, double h) {
+        // Call the superclass constructor to
+        // initialize length and width.
+        super(len, w);
 
-   /**
-    *  The getHeight method returns the height     
-    *  field. 
-    */
+        // Initialize height.
+        height = h;
+    }
 
-   public double getHeight()
-   {
-      return height;
-   }
+    /**
+     * The getHeight method returns the height
+     * field.
+     */
 
-   /**
-    *  The getSurfaceArea method returns the       
-    *  cube's surface area. 
-    */
+    public double getHeight() {
+        return height;
+    }
 
-   public double getSurfaceArea()
-   {
-      return getArea() * 6;
-   }
+    /**
+     * The getSurfaceArea method returns the
+     * cube's surface area.
+     */
 
-   /**
-    *  The getVolume method returns the volume of 
-    *  the cube.
-    */
+    public double getSurfaceArea() {
+        return getArea() * 6;
+    }
 
-   public double getVolume()
-   {
-      return getArea() * height;
-   }
+    /**
+     * The getVolume method returns the volume of
+     * the cube.
+     */
+
+    public double getVolume() {
+        return getArea() * height;
+    }
 }
