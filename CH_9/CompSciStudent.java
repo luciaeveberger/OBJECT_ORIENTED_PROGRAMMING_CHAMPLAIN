@@ -81,6 +81,9 @@ public class CompSciStudent extends Student
     */
 
    @Override
+   //@: decorator
+   // @overloaded
+   // @def
    public int getRemainingHours()
    {
       int reqHours,       // Total required hours

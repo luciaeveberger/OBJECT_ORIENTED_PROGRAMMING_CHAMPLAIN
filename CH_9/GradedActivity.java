@@ -1,3 +1,5 @@
+package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_9;
+
 /**
  * A class that holds a grade for a graded activity.
  */

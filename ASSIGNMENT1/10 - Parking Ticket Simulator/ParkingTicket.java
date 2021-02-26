@@ -138,7 +138,7 @@ public class ParkingTicket
    }
 
    /**
-    * toString method
+    * toString method -> allows us to print this well.
     */
 
    public String toString()

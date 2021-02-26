@@ -43,4 +43,9 @@ public abstract class Student
     */
 
    public abstract int getRemainingHours();
+
+   // abstract and it must be ovverriden in a subclass => to tell us maybe Nursing doesn't need a stage and COMP sci does.
+   public abstract boolean hasRequiredStage();
+
+
 }
