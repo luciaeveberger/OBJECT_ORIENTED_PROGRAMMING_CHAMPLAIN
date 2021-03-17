@@ -5,6 +5,7 @@ package CH_9;
  */
 
 public class Cube extends Rectangle {
+    // so in addition to the length and the width + height as well
     private double height;  // The height of the cube
 
     /**
@@ -13,12 +14,14 @@ public class Cube extends Rectangle {
      */
 
     public Cube(double len, double w, double h) {
+        // from our rectagle + height
         // Call the superclass constructor to
         // initialize length and width.
-        super(len, w);
 
-        // Initialize height.
+        super(len, w); // this is basically saying => create our Rectangle => and add HEIGHT => create the more general thing, then add a bit of flavour! add new attributes
         height = h;
+        // Initialize height.
+
     }
 
     /**
@@ -46,5 +49,18 @@ public class Cube extends Rectangle {
 
     public double getVolume() {
         return getArea() * height;
+    }
+
+    public static void main(String[] args) {
+
+
+        Cube cubeExample = new Cube(10.0, 20.0, 10.0);
+        // we can call methods from our specialzed class
+        cubeExample.getHeight();
+        // or our general class!!
+        cubeExample.getLength();
+        cubeExample.getWidth();
+
+
     }
 }

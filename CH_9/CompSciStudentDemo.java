@@ -18,6 +18,8 @@ public class CompSciStudentDemo {
 
         // Display the student's data.
         System.out.println(csStudent);
+        // the setter method here is going to overwrite the origianl
+        csStudent.setCsHours(44);
 
         // Display the number of remaining hours.
         System.out.println("Hours remaining: " +

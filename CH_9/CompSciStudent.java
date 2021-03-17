@@ -7,6 +7,7 @@ package CH_9;
 public class CompSciStudent extends Student {
     // Constants for the math, computer science and
     // general education hours required for graduation.
+    // this is a comp sci student class
     private final int MATH_HOURS = 20,
             CS_HOURS = 40,
             GEN_ED_HOURS = 60;
@@ -23,6 +24,7 @@ public class CompSciStudent extends Student {
     public CompSciStudent(String n, String id, int year) {
         super(n, id, year);
     }
+    // a constructors role -> to set up the class and object that we use
 
     /**
      * The setMathHours method accepts a value for

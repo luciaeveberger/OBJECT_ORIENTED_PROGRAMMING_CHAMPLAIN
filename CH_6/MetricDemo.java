@@ -1,4 +1,7 @@
-package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.CH_6;
+package Ch_9;
+
+
+import CH_9.MetricOpener;
 
 import java.util.Scanner;
 
@@ -21,17 +24,25 @@ public class MetricDemo
       miles = keyboard.nextDouble();
 
       // Convert the distance to kilometers.
-      kilos = Metric.milesToKilometers(miles);
-      System.out.printf("%.2f miles equals %.2f kilometers.\n",
-                        miles, kilos);
 
-      // Get a distance in kilometers.
-      System.out.print("Enter a distance in kilometers: ");
-      kilos = keyboard.nextDouble();
+      MetricOpener m = new MetricOpener();
+      kilos = MetricOpener.milesToKilometers(miles);
 
-      // Convert the distance to kilometers.
-      miles = Metric.kilometersToMiles(kilos);
-      System.out.printf("%.2f kilometers equals %.2f miles.\n",
-                        kilos, miles);
+      double returnValue = Math.sqrt(10.0);
+      double returnValue1 = Math.sqrt(20.0);
+      System.out.println(returnValue1);
+
+//
+//      System.out.printf("%.2f miles equals %.2f kilometers.\n",
+//                        miles, kilos);
+//
+//      // Get a distance in kilometers.
+//      System.out.print("Enter a distance in kilometers: ");
+//      kilos = keyboard.nextDouble();
+//
+//      // Convert the distance to kilometers.
+//      miles = Metric.kilometersToMiles(kilos);
+//      System.out.printf("%.2f kilometers equals %.2f miles.\n",
+//                        kilos, miles);
    }
 }
