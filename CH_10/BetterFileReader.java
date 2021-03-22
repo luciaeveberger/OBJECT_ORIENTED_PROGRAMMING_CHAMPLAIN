@@ -10,7 +10,7 @@ import java.io.*;
 
 public class BetterFileReader
 {
-   public static void main(String[] args)
+   public static void main(String[] args) throws IOException
    {
       String filename,   // The file name
              input;      // To hold the file input

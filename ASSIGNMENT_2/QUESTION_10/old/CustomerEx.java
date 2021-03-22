@@ -1,6 +1,6 @@
-package ASSIGNMENT_2.QUESTION_10;
+package ASSIGNMENT_2.QUESTION_10.old;
 
-public class CustomerEx extends  PersonEx{
+public class CustomerEx extends PersonEx {
 
     public int customerNumber;
     public boolean isOnMailingList; //hasSignedUpForMAilingList

@@ -1,6 +1,7 @@
 package CH_10;
 
 import java.io.*;
+import java.util.Scanner;
 
 /**
  * This program demonstrates how multiple catch clauses
@@ -18,7 +19,8 @@ public class ReadFile
 
           // Get a file name from the user.
           System.out.print("Enter the name of a file: ");
-          fileName = Keyboard.readString();
+          Scanner Keyboard = new Scanner(System.in);
+          fileName = Keyboard.next();
 
           // Attempt to open and read the file.
           try

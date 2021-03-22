@@ -34,11 +34,15 @@ public class OpenFile
          // following statement will execute.
          System.out.println("The file was found.");
       }
-      catch (FileNotFoundException e)
+      // the catchblock -> OBJECT_TYPE {fileNotFound -> e}
+
+      //FileNotFoundException e = new FileNotFoundException();
+      catch (FileNotFoundException exceptionClause)
       {
          // If the file was not found, the following
          // statement will execute.
          System.out.println("File not found.");
+         System.out.println(exceptionClause);
       }
 
       System.out.println("Done.");
