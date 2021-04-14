@@ -15,6 +15,7 @@ public class BadArray
       // Attempt to read beyond the bounds
       // of the array. => ok maybe.. but it's going to have a faulty logical point
       for (int index = 0; index <= numbers.length; index++)
+         // we're blocked here!
          System.out.println(numbers[index]);
       // our code crashes!!
       // if I have logic after here -- i will never get ther !

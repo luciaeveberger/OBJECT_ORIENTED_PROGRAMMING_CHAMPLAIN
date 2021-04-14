@@ -12,7 +12,7 @@ public class SalesReport
 {
    public static void main(String[] args)
    {
-      String filename = "SalesData.txt"; // File name
+      String filename = "C:\\Users\\Lucia\\OneDrive - Champlain Regional College\\SEMESTER_2\\JAVA_2\\CODE\\IN_CLASS_EXAMPLES\\src\\OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN\\CH_10\\SalesData1.txt"; // File name
       int months = 0;                    // Month counter
       double oneMonth;                   // One month's sales
       double totalSales = 0.0;           // Total sales
