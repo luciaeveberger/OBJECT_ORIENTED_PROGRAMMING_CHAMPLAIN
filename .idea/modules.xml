@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ASSIGNMENT1/ASSIGNMENT1.iml" filepath="$PROJECT_DIR$/ASSIGNMENT1/ASSIGNMENT1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ASSIGNMENTS/ASSIGNMENT1/ASSIGNMENT1.iml" filepath="$PROJECT_DIR$/ASSIGNMENTS/ASSIGNMENT1/ASSIGNMENT1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.iml" filepath="$PROJECT_DIR$/OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.iml" />
     </modules>
   </component>

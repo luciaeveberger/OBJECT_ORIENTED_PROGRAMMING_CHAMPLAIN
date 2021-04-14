@@ -1,4 +1,4 @@
-package ASSIGNMENT_2.QUESTION_10.old;
+package ASSIGNMENTS.ASSINGMENT_2;
 
 import java.io.*;
 import java.io.FileWriter;
@@ -91,7 +91,7 @@ public class FileArray {
     public static void main(String[] args) {
 
         int [] myArray = {1,4,10};
-        String newFileName = "ASSIGNMENT_2/QUESTION_10/old/new_file.txt";
+        String newFileName = "ASSIGNMENTS/ASSINGMENT_2/new_file.txt";
 
         FileArray.writeArray(newFileName, myArray);
         FileArray.readArray(newFileName, myArray);

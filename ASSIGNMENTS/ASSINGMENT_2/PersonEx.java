@@ -1,4 +1,4 @@
-package ASSIGNMENT_2.QUESTION_10.old;
+package ASSIGNMENTS.ASSINGMENT_2;
 
 /*
 Design a class named Person with fields for holding a person’s name, address, and telephone number.

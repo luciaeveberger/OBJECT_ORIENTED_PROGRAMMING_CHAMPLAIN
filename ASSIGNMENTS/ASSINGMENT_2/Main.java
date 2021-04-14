@@ -1,4 +1,4 @@
-package ASSIGNMENT_2.QUESTION_10.old;
+package ASSIGNMENTS.ASSINGMENT_2;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package OBJECT_ORIENTED_PROGRAMMING_CHAMPLAIN.Question2;
+package ASSIGNMENTS.ASSINGMENT_2.Question2;
 
 public class Question {
     /*
