@@ -7,26 +7,31 @@ public class LinkedListExample {
     public static void main(String[] args) {
         // LinkedList here! <OBJECT INTEGER> -> represnt a wrapper for our primative type
 
-        LinkedList<Integer> linkedList = new LinkedList<Integer>();
+        LinkedList<Integer> integerList = new LinkedList<Integer>();
+        LinkedList<String> stringValueList = new LinkedList<>();
         // {head} {tail} {size: 0}
-        linkedList.add(19);
-        linkedList.add(20);
-        linkedList.add(20);
-        linkedList.add(20);
-        linkedList.add(20);
+        integerList.add(19);
+        integerList.add(18);
+        stringValueList.add("String Value Homie!");
+        integerList.add(20);
+       // integerList.add(21);
+
+        //
+
         // update our linked list with our index of where it's located!
-        linkedList.add(1, 17);
+       // integerList.add(1, 17);
+        //integerList.remove(1);
         // [19 => 20 => nothing)
         // [19, 20]
-       // linkedList.add(20);
-        //linkedList.add(0, 10);
+       // integerList.add(20);
+        //integerList.add(0, 10);
 
-//        for (int i =0; i < linkedList.size();i++){
-//            System.out.println("What is at the value " + i);
-//            System.out.println(linkedList.get(i));
-//        }
+        for (int i=0; i < integerList.size();i++){
+            System.out.println("What is at the value " + i);
+            System.out.println(integerList.get(i));
+        }
         // more efficient -> let us traverse our linkedlist more efficienlty!!!
-        ListIterator it = linkedList.listIterator();
+        ListIterator it = integerList.listIterator();
         // while the next node does not point to a null value!
         while (it.hasNext()){ // this will become false at some poin!
             System.out.println( it.next());
